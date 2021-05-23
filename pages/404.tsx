@@ -1,6 +1,6 @@
 import Router from 'next/router'
 
-import MainLayout from 'layouts/MainLayout'
+import { MainLayout } from 'layouts/Main'
 
 export default function ErrorPage() {
   const handleClick = () => Router.back()

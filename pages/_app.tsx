@@ -1,7 +1,8 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import { ApolloProvider } from '@apollo/client'
-import { client } from 'lib/apollo-client'
+import { client } from 'graphql/apollo-client'
 import global from 'styles/global'
+import theme from 'styles/theme'
 
 const GlobalStyles = createGlobalStyle`
   ${global}
@@ -10,8 +11,10 @@ const GlobalStyles = createGlobalStyle`
 function MyApp({ Component, pageProps }) {
   return (
     <ApolloProvider client={client}>
-      <Component {...pageProps} />
-      <GlobalStyles />
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+        <GlobalStyles />
+      </ThemeProvider>
     </ApolloProvider>
   )
 }

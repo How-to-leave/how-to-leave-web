@@ -1,8 +1,8 @@
 import Router from 'next/router'
 
-import MainLayout from 'layouts/MainLayout'
+import { MainLayout } from 'layouts/Main'
 
-export default function Profile() {
+export default function ProfilePage() {
   const handleClick = () => {
     Router.back()
   }

@@ -1,7 +1,8 @@
-import MainLayout from 'layouts/MainLayout'
 import Router from 'next/router'
 
-export default function Search() {
+import { MainLayout } from 'layouts/Main'
+
+export default function SearchPage() {
   const handleClick = () => {
     Router.back()
   }

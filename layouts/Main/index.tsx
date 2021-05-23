@@ -8,7 +8,7 @@ interface MainLayoutProps {
   subtitle?: string
 }
 
-export default function MainLayout({
+export function MainLayout({
   children,
   title,
   subtitle = 'Как свалить - поиск стран для миграции',

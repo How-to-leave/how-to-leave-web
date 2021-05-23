@@ -1,16 +1,12 @@
-import MainLayout from 'layouts/MainLayout'
-import { Button } from 'components/Button'
-import { Users } from 'components/Users'
+import { MainLayout } from 'layouts/Main'
+import { AppButton } from 'components/app-button'
 
-export default function Home({ users }) {
+export default function HomePage() {
   return (
     <MainLayout title="Главная">
       <h1>СЪЕБИСЬ ПОСКОРЕЕ</h1>
-      <Button />
+      <AppButton />
       <hr />
-      <div>
-        <Users />
-      </div>
     </MainLayout>
   )
 }

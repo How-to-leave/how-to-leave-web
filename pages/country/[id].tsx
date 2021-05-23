@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router'
 
-import MainLayout from 'layouts/MainLayout'
+import { MainLayout } from 'layouts/Main'
 
-export default function Country() {
+export default function CountryPage() {
   const router = useRouter()
 
   const countryId = router.query.id

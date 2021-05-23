@@ -19,6 +19,7 @@ export default css`
 
   ul {
     list-style-type: none;
+    padding: 0;
   }
 
   h1 {
