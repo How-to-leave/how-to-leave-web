@@ -1,8 +1,8 @@
 const theme = {
   colors: {
-    primary: '#9F8478',
-    secondary: '#2D2D2D',
-    white: '#FFFFFF',
+    primary: 'rgb(27, 153, 139)',
+    secondary: 'rgb(51, 51, 51)',
+    white: 'rgb(248, 241, 255)',
   },
 
   // Source: https://getbootstrap.com/docs/4.0/layout/grid/

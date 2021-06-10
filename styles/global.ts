@@ -5,7 +5,7 @@ export default css`
   body {
     padding: 0;
     margin: 0;
-    font-family: Segoe UI;
+    font-family: Montserrat, Arial, sans-serif;
   }
 
   * {
@@ -20,9 +20,12 @@ export default css`
   ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
   }
 
   h1 {
+    padding: 0;
+    margin: 0;
     color: orange;
   }
 `

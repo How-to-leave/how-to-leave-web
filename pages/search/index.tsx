@@ -1,6 +1,6 @@
 import Router from 'next/router'
 
-import { MainLayout } from 'layouts/Main'
+import { BaseLayout } from 'layouts/Base'
 
 export default function SearchPage() {
   const handleClick = () => {
@@ -8,11 +8,11 @@ export default function SearchPage() {
   }
 
   return (
-    <MainLayout title="Поиск">
+    <BaseLayout title="Поиск">
       <h1>Поиск</h1>
       <div>
         <button onClick={handleClick}>Назад</button>
       </div>
-    </MainLayout>
+    </BaseLayout>
   )
 }

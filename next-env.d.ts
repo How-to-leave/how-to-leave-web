@@ -1,3 +1,6 @@
 /// <reference types="next" />
 /// <reference types="next/types/global" />
-declare module '*.gql'
+declare module '*.svg' {
+  const content: any
+  export default content
+}
