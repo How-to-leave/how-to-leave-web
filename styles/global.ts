@@ -8,6 +8,10 @@ export default css`
     font-family: Montserrat, Arial, sans-serif;
   }
 
+  button {
+    font-family: inherit;
+  }
+
   * {
     box-sizing: border-box;
   }

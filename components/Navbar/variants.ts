@@ -1,10 +1,10 @@
 export const navbarVariants = {
   hold: {
-    boxShadow: ' 0 0 0px rgba(0,0,0,0)',
+    boxShadow: ' 0 0 0px rgba(0, 0, 0, 0)',
   },
 
   float: {
-    boxShadow: ' 0 0 10px rgba(0,0,0,0.5)',
+    boxShadow: ' 0 0 10px rgba(0, 0, 0, 0.5)',
   },
 }
 

@@ -17,6 +17,7 @@ export const NavbarContainer = styled(motion.div)`
   height: ${navbarHeight}px;
   padding: 0 20px;
   background: ${theme.colors.primary};
+  z-index: 100;
 
   @media ${theme.media.medium} {
     justify-content: flex-start;
